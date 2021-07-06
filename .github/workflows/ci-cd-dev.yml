@@ -77,5 +77,5 @@ jobs:
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: svc-httpd
-        cluster: httpd
+        cluster: cluster-httpd
         wait-for-service-stability: true
